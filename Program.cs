@@ -7,7 +7,7 @@ namespace c_random
   static void Main(string[] args)
   {
    Random random = new Random();
-   int returnValue = random.Next(0, 50);
+   int returnValue = random.Next(1, 50);
    int Guess = 0;
    Console.WriteLine("Throwing ya a number between 0 and 50, What is that number?");
    while (Guess != returnValue)
